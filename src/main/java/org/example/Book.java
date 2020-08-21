@@ -1,13 +1,13 @@
 package org.example;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Book {
-    Scanner addBookTitle = new Scanner(System.in);
-    Scanner bookNovel = new Scanner(System.in);
-    Scanner bookAlbum = new Scanner(System.in);
-    Scanner numberOfPage = new Scanner(System.in);
-    Scanner addBook = new Scanner(System.in);
+//    Scanner addBookTitle = new Scanner(System.in);
+//    Scanner bookNovel = new Scanner(System.in);
+//    Scanner bookAlbum = new Scanner(System.in);
+//    Scanner numberOfPage = new Scanner(System.in);
+//    Scanner addBook = new Scanner(System.in);
     public Integer nop; //number of pages
     public String title;
     public String type;
@@ -65,17 +65,17 @@ public class Book {
                 '}';
         }
 
-        public void addBookToLib(){
-
-            System.out.println("Enter title of book you wish to add:");
-            setTitle(addBookTitle.nextLine());
-            System.out.println("If it is a Novel please specify the type of it, otherwise just hit enter:");
-            setType(bookNovel.nextLine());
-            System.out.println("If it is an Album please specify the paper quality of it,  otherwise just hit enter:");
-            setPq(bookAlbum.nextLine());
-            System.out.println("Specify number of pages of the book you wish to add:");
-            setNop(numberOfPage.nextInt());
-    }
+//        public void addBookToLib(){
+//
+//            System.out.println("Enter title of book you wish to add:");
+//            setTitle(addBookTitle.nextLine());
+//            System.out.println("If it is a Novel please specify the type of it, otherwise just hit enter:");
+//            setType(bookNovel.nextLine());
+//            System.out.println("If it is an Album please specify the paper quality of it,  otherwise just hit enter:");
+//            setPq(bookAlbum.nextLine());
+//            System.out.println("Specify number of pages of the book you wish to add:");
+//            setNop(numberOfPage.nextInt());
+//    }
 }
 
 
